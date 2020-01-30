@@ -1,0 +1,20 @@
+(define (install-polar-package export)
+	(define (tag data) (attach-tag 'polar data))
+	(define (magnitude z) (car z))
+	(define (angle z) (cdr z))
+	(define (real-part z)
+		(* (magnitude z) (cos (angle z))))
+	(define (imag-part z)
+		(* (magnitude z) (sin (angle z))))
+
+	(export 'make 'polar
+					(lambda (mag ang)
+						(tag (cons mag ang))))
+	(export 'magnitude 'polar magnitude)
+	(export 'angle 'polar angle)
+	(export 'real-part 'polar real-part)
+	(export 'imag-part 'polar imag-part)
+
+	(display "polar package installed")
+	(newline)
+	'ok)

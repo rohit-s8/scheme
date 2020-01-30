@@ -1,0 +1,61 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+add	numbers.scm	/^(define (add . n)$/;"	f
+add-drop-proc-ts!	types.scm	/^(define (add-drop-proc-ts! ts type proc)$/;"	f
+add-raise-proc-ts!	types.scm	/^(define (add-raise-proc-ts! ts init-type target-type proc)$/;"	f
+add-type-ts!	types.scm	/^(define (add-type-ts! ts type priority)$/;"	f
+angle	numbers.scm	/^(define (angle z) (generic-op 'angle z))$/;"	f
+attach-tag	tag.scm	/^(define (attach-tag tag data) (cons tag data))$/;"	f
+complex?	numbers.scm	/^(define (complex? z) (eq? (get-tag z) 'complex))$/;"	f
+denominator	numbers.scm	/^(define (denominator r) (generic-op 'denom r))$/;"	f
+div	numbers.scm	/^(define (div n1 . n)$/;"	f
+drop-complex	numbers.scm	/^(define (drop-complex z)$/;"	f
+drop-rational	numbers.scm	/^(define (drop-rational r)$/;"	f
+equ?	numbers.scm	/^(define (equ? n1 n2) (generic-op 'equ? n1 n2))$/;"	f
+generic-op	numbers.scm	/^(define (generic-op op . args)$/;"	f
+get	numbers.scm	/^(define (get op arg-types)$/;"	f
+get-content	tag.scm	/^(define (get-content tagged-data)$/;"	f
+get-table	table.scm	/^(define (get-table t) ((t 'get)))$/;"	f
+get-tag	tag.scm	/^(define (get-tag tagged-data)$/;"	f
+homogenize	numbers.scm	/^(define (homogenize list-of-args)$/;"	f
+homogenize-ts	types.scm	/^(define (homogenize-ts ts list-of-args)$/;"	f
+identity	numbers.scm	/^(define (identity x) x)$/;"	f
+imag-part	numbers.scm	/^(define (imag-part z) (generic-op 'imag-part z))$/;"	f
+insert-table!	table.scm	/^(define (insert-table! table keys item)$/;"	f
+install-complex-package	complex.scm	/^(define (install-complex-package export)$/;"	f
+install-polar-package	complex-polar.scm	/^(define (install-polar-package export)$/;"	f
+install-rational-package	rational.scm	/^(define (install-rational-package export)$/;"	f
+install-rectangular-package	complex-rectangular.scm	/^(define (install-rectangular-package export)$/;"	f
+install-scheme-number-package	scheme-number.scm	/^(define (install-scheme-number-package export)$/;"	f
+lookup-table	table.scm	/^(define (lookup-table table keys)$/;"	f
+magnitude	numbers.scm	/^(define (magnitude z) (generic-op 'magnitude z))$/;"	f
+make-polar	numbers.scm	/^(define make-polar$/;"	f
+make-rat	numbers.scm	/^(define make-rat$/;"	f
+make-rectangular	numbers.scm	/^(define make-rectangular $/;"	f
+make-table	table.scm	/^(define (make-table dim)$/;"	f
+make-type-system	types.scm	/^(define (make-type-system)$/;"	f
+mul	numbers.scm	/^(define (mul . n)$/;"	f
+number->complex	numbers.scm	/^(define (number->complex n) (make-rectangular n 0))$/;"	f
+number->rational	numbers.scm	/^(define (number->rational n) (make-rat n 1))$/;"	f
+numerator	numbers.scm	/^(define (numerator r) (generic-op 'numer r))$/;"	f
+print	numbers.scm	/^(define (print n) (generic-op 'print n))$/;"	f
+print-table	table.scm	/^(define (print-table table)	((table 'print)))$/;"	f
+proc-table	numbers.scm	/^(define proc-table (make-table 2))$/;"	f
+put	numbers.scm	/^(define (put op arg-types proc)$/;"	f
+put-drop-proc	numbers.scm	/^(define (put-drop-proc type proc)$/;"	f
+put-raise-proc	numbers.scm	/^(define (put-raise-proc init-type target-type proc)$/;"	f
+put-type	numbers.scm	/^(define (put-type type priority)$/;"	f
+raise-arg	numbers.scm	/^(define (raise-arg arg)$/;"	f
+raise-arg-ts	types.scm	/^(define (raise-arg-ts ts arg)$/;"	f
+rational->complex	numbers.scm	/^(define (rational->complex r)$/;"	f
+rational?	numbers.scm	/^(define (rational? r) (eq? (get-tag r) 'rational))$/;"	f
+real-part	numbers.scm	/^(define (real-part z) (generic-op 'real-part z))$/;"	f
+scheme-number?	numbers.scm	/^(define (scheme-number? n) (eq? (get-tag n) 'scheme-number))$/;"	f
+simplify	numbers.scm	/^(define (simplify data)$/;"	f
+simplify-ts	types.scm	/^(define (simplify-ts ts data)$/;"	f
+sub	numbers.scm	/^(define (sub n1 . n)$/;"	f
+ts	numbers.scm	/^(define ts (make-type-system))$/;"	f
